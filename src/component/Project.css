@@ -1,0 +1,46 @@
+#projects{
+    height: 1400px;
+    /* margin-top: 92px; */
+    width: 100%;
+    background: linear-gradient(to top left, rgb(1, 28, 53),rgb(116, 74, 81));
+}
+
+.project{
+    margin-top: 60px;
+    font-style: italic;
+  }
+
+.name{
+    color: white;
+    filter: drop-shadow(1px 1px 20px rgb(203, 3, 234));
+}
+.eye, .git{
+    color: white;
+}
+.eye:hover, .git:hover{
+    color: black;
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+@media only screen and (max-width:767px){
+    .project{
+        margin-top: 50px;
+    }
+    #projects{
+        height: 2650px;
+    }
+    /* .eye{
+        margin-left: 180px;
+    }
+    .git{
+        margin-left: 100px;
+    } */
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    /* Tab-specific styles yahan likho */
+    #projects{
+        height: 1820px;
+    }
+
+  }

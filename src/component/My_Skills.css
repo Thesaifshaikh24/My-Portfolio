@@ -1,0 +1,25 @@
+.images{
+    border: 1px ;
+    box-shadow: 5px 10px 8px 0.5px purple;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    width: 80%;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+.images:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+.img{
+    aspect-ratio: 3/2;
+    width: 30%;
+    object-fit: contain;
+    padding-top: 10px;
+}
+
+@media only screen and (min-width:768px) and (max-width:1025px){
+    .img{
+        aspect-ratio: 2/3;
+    }
+}

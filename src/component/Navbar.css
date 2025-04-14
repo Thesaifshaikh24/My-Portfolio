@@ -1,0 +1,21 @@
+
+.brandname{
+    margin-left: 80px;
+    /* font-size: 30px; */
+    font-family: cursive;
+    /* filter: drop-shadow(2px 1px 300px black); */
+}
+ul{
+   align-items: end;
+}
+li{
+    margin-left: 95px;
+    padding-right: 50px;
+}
+b:hover{
+    color: rgb(179,3,208);
+}
+.navname{
+    color: rgb(179,3,208);
+    /* transition: all 0.2s ease-in-out; */
+}

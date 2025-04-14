@@ -1,0 +1,148 @@
+.wa_box{
+  height: 50px;
+  width: 50px;
+  background-color: rgb(37, 211, 102);
+  border-radius: 50%;
+  position: fixed;
+  bottom: 50px;
+  right: 60px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+.wa_box i{
+  color: white;
+  font-size: 31px;
+  margin-top: 10px;
+}
+.wa_box:hover{
+  transform: scale(1.1);
+}
+
+.home{
+    height: 738px;
+    width: 100%;
+  }
+  .effect{
+    position: absolute;
+    height: 738px;
+    width: 100%;
+    filter: brightness(50%);
+  }
+  .heading{
+      position: relative;
+      padding-top: 250px;
+      padding-left: 150px;
+      /* background-color: red; */
+      color: white;
+  }
+  .headingname{
+      font-size: 50px;
+      color: white;
+      font-style: italic;
+      font-weight: 700;
+      color: rgb(179,3,208);
+  }
+  .myname{
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+  }
+  
+  .type {
+    display:inline-flex;
+  }
+  
+  .type{
+    word-break: break-all;
+    height: 1.2em;
+    font-weight: 500;
+    width:0%;
+    overflow: hidden;
+    color: white;
+    animation:t 2s linear infinite alternate;
+  }
+  .type:before {
+    content:" ";
+    display:inline-block;
+  }
+  
+  @keyframes t{
+    90%,100% {width:100%}
+  }
+  
+  .resume{
+    background-color: rgb(179,3,208);
+    color: white;
+    height: 50px;
+    margin-left: 20px;
+    width: 20%;
+    border-radius: 10px;
+  }
+  .resume:hover{
+    background-color: darkblue;
+    transition-duration: 0.3s;
+    filter: drop-shadow(1px 1px 10px orange);
+  }
+  .hire{
+    margin-left: 250px;
+    margin-top: -100px;
+  }
+  .icones{
+    display: inline-block;
+    margin-left: 15px;
+  }
+  .icones:hover{
+    color: lightskyblue;
+  }
+  .photo{
+    margin-top: 130px;
+    margin-left: 60px;
+    height: 500px;
+    width: 70%;
+    filter: drop-shadow(1px 1px 20px rgba(246,161,146));
+  }
+
+  @media only screen and (max-width:767px){
+    .wa_box{
+      right: 30px;
+    }
+    .heading{
+        padding-top: 80px;
+        padding-left: 15px;
+    }
+    .headingname{
+        font-size: 40px;
+    }
+    .myname{
+        font-size: 36px;
+    }
+    .type{
+        font-size: 24px;
+    }
+    .resume{
+        width: 32%;
+    }
+    .photo{
+        margin-top: 30px;
+        margin-left: 15px;
+        height: 350px;
+        width: 90%;
+    }
+  }
+  @media only screen and (min-width:768px) and (max-width:1025px){
+    .heading{
+        padding-left: 10px;
+    }
+    .type{
+        font-size: 27px;
+    }
+    .resume{
+        width: 30%;
+    }
+    .photo{
+        margin-top: 200px;
+        margin-left: 20px;
+        width: 90%;
+        height: 400px;
+    }
+  }
