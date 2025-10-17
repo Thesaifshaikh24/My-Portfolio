@@ -12,9 +12,6 @@ li{
     margin-left: 95px;
     padding-right: 50px;
 }
-b:hover{
-    color: rgb(179,3,208);
-}
 .navname{
     color: rgb(179,3,208);
     /* transition: all 0.2s ease-in-out; */

@@ -37,7 +37,7 @@ function Home() {
              <h1><span className="type"><span>I'm a MERN Stack Developer</span></span> </h1>
             </div>
             {/* <button className='resume'><b>Resume <i className="bi bi-download"></i></b></button> */}
-            <a href="./images/Resume.jpg" download='Resume.jpg' ><button className='resume'><b>Resume <i className='bi bi-download'></i></b></button></a>
+            <a href="./images/resume.png" download='resume.png' ><button className='resume'><b>Resume <i className='bi bi-download'></i></b></button></a>
             <button className='resume'><a href="#projects" className='nav-link'><b>Projects <i className="bi bi-arrow-bar-right"></i></b></a></button><br />
             {/* <button className='resume'><b>Projects <i className="bi bi-arrow-bar-right"></i></b></button><br /> */}
             <h3 className='mt-3 icones'><a href="https://www.linkedin.com/in/saif-shaikh-82b920308?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target='_blank' rel='noopener noreferrer' className='nav-link'><i class="bi bi-linkedin"></i></a></h3>

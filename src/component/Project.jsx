@@ -33,8 +33,8 @@ class projects extends React.Component{
                 projectName: <i className="name">Portfolio</i>,
                 projectDes: "This is my personal website where I share my work, skills, and projects. It also has a contact form that sends messages straight to my email.",
                 tech: "Tech Stack: HTML, CSS, Bootstrap, JavaScript, React",
-                eye: <i className="bi bi-eye-fill eye"></i>,
-                git: <i className="bi bi-github git"></i>
+                eye: <a href="https://theshaikhsaif.netlify.app/" target='_blank' rel='noopener noreferrer'><i className="bi bi-eye-fill eye"></i></a>,
+                git: <a href="https://github.com/Thesaifshaikh24/My-Portfolio" target='_blank' rel='noopener noreferrer'><i className="bi bi-github git"></i></a>
             },
 
             {
